@@ -8,7 +8,7 @@ import Dweet from 'src/models/Dweet';
   templateUrl: './currentcolor.page.html',
   styleUrls: ['./currentcolor.page.scss'],
 })
-export class CurrentcolorPage implements OnInit {
+export class CurrentColorPage implements OnInit {
 
   private dweet: Dweet 
   private isLoading: boolean = true; 
