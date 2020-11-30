@@ -27,14 +27,7 @@ const routes: Routes = [
     path: 'umidade',
     loadChildren: () => import('./pages/umidade/umidade.module').then( m => m.UmidadePageModule)
   },
-  {
-    path: 'current-color',
-    loadChildren: () => import('./pages/currentcolor/currentcolor.module').then( m => m.CurrentColorPageModule)
-  },
-  {
-    path: 'status-buzzer',
-    loadChildren: () => import('./pages/statusbuzzer/statusbuzzer.module').then( m => m.StatusBuzzerPageModule)
-  }
+
 ];
 
 @NgModule({

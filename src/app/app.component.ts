@@ -33,18 +33,6 @@ export class AppComponent implements OnInit {
       title: 'Umidades',
       url: '/umidade',
       icon: 'water'
-    },
-
-    {
-      title: 'Cor',
-      url: '/currentcolor',
-      icon: 'paper-plane'
-    },
-
-    {
-      title: 'Buzina',
-      url: '/statusbuzzer',
-      icon: 'alarm'
     }
 
   ];
