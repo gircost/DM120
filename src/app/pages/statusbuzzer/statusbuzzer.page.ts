@@ -8,7 +8,7 @@ import Dweet from 'src/models/Dweet';
   templateUrl: './statusbuzzer.page.html',
   styleUrls: ['./statusbuzzer.page.scss'],
 })
-export class StatusbuzzerPage implements OnInit {
+export class StatusBuzzerPage implements OnInit {
 
   private dweet: Dweet 
   private isLoading: boolean = true; 

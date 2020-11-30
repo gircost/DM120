@@ -1,5 +1,3 @@
-import { LuminosidadePage } from 'src/app/pages/luminosidade/luminosidade.page';
-
 export default class Content { 
     private temperatura: string = "0"; 
     private luminosidade: string = "0";

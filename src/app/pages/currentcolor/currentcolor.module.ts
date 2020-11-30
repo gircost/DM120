@@ -7,13 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { CurrentColorPageRoutingModule } from './currentcolor-routing.module';
 
 import { CurrentColorPage } from './currentcolor.page';
+import { ChartModule } from 'angular2-highcharts'; 
+import * as highcharts from 'highcharts';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    CurrentColorPageRoutingModule
+    CurrentColorPageRoutingModule,
+    ChartModule.forRoot(highcharts)
   ],
   declarations: [CurrentColorPage]
 })

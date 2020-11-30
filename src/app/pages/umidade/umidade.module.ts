@@ -7,13 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { UmidadePageRoutingModule } from './umidade-routing.module';
 
 import { UmidadePage } from './umidade.page';
+import { ChartModule } from 'angular2-highcharts'; 
+import * as highcharts from 'highcharts';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    UmidadePageRoutingModule
+    UmidadePageRoutingModule,
+    ChartModule.forRoot(highcharts)
   ],
   declarations: [UmidadePage]
 })
