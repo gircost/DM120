@@ -18,6 +18,22 @@ const routes: Routes = [
   {
     path: 'home',
     loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
+  },
+  {
+    path: 'luminosidade',
+    loadChildren: () => import('./pages/luminosidade/luminosidade.module').then( m => m.LuminosidadePageModule)
+  },
+  {
+    path: 'umidade',
+    loadChildren: () => import('./pages/umidade/umidade.module').then( m => m.UmidadePageModule)
+  },
+  {
+    path: 'current-color',
+    loadChildren: () => import('./pages/currentcolor/currentcolor.module').then( m => m.CurrentColorPageModule)
+  },
+  {
+    path: 'status-buzzer',
+    loadChildren: () => import('./pages/statusbuzzer/statusbuzzer.module').then( m => m.StatusBuzzerPageModule)
   }
 ];
 
